@@ -23,7 +23,7 @@ Extra challenges: The additional requirements below are optional. Implement them
 
 // ================ 1st Option With Functions ================ //
 
-const bankingApp = () => {
+function bankingApp() {
 
   // variables
   let userInput;
@@ -54,8 +54,8 @@ const bankingApp = () => {
     }
 
     // check for an empry entry
-    if (userInput === null || userInput === '') {
-      break;
+    if (userInput == null || userInput == 'null' || userInput == "") {
+      return;
     }
 
     // switch statements
