@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
 }
 
 body {
@@ -52,6 +51,10 @@ p {
 
 .indent {
   margin-left: 2rem;
+}
+
+.indent-2 {
+  margin-left: 4rem;
 }
 
 hr {
